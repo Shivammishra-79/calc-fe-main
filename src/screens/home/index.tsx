@@ -209,7 +209,7 @@ export default function Home() {
     return (
         <>
             <div className='flex justify-center items-center space-x-4 mb-4'>
-                <Button onClick={() => setReset(true)} className='z-20 bg-black text-white' variant='default' color='black'>
+                <Button onClick={() => setReset(true)} className='z-20 bg-red-600 text-white' variant='default' color='black'>
                     Reset
                 </Button>
                 <Group className='z-20'>
@@ -234,8 +234,8 @@ export default function Home() {
                         className='mx-2'
                     />
                 </div>
-                <Button onClick={runRoute} className='z-20 bg-black text-white' variant='default' color='white'>
-                    Run
+                <Button onClick={runRoute} className='z-20 bg-green-600 text-white' variant='default' color='white'>
+                    Calculate
                 </Button>
             </div>
             <canvas
